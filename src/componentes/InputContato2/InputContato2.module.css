@@ -1,0 +1,11 @@
+.inputs{
+    margin-left: 100px;
+}
+
+.caixaTexto{
+    width: 350px;
+    height: 150px;
+    margin: 10px 0;
+    border: solid #FFE74C 2px;
+    padding: 5px;
+}

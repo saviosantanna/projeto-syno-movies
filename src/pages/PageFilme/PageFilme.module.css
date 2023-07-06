@@ -1,0 +1,71 @@
+.pagefilme{
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+    margin: 20px 0;
+    border-top: #6BF178 solid 3px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.infosFilme {
+    margin: 5px 35px;
+    font-size: 14px;
+}
+
+.texto{
+    font-size: 23px;
+    margin: 0px;
+    font-weight: 200;
+}
+
+.imagem{
+    height: 250px;
+    margin: 0 35px;
+}
+
+a{
+    text-decoration: none;
+    color: #35A7FF;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2069a0;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .texto{
+        font-size: 20px;
+        color: yellow;
+    }
+
+    .imagem{
+        scale: 0.8;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .texto{
+        font-size: 17px;
+        color: red;
+    }
+
+    .imagem{
+        scale: 0.7;
+    }
+    
+}

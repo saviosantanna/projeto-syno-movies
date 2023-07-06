@@ -1,0 +1,29 @@
+.filme{
+    display: flex;
+    padding: 30px 0;
+    margin: 20px 0;
+    border-top: #6BF178 solid 3px;
+}
+
+.imagens{
+    box-shadow: none;
+    border: none;
+    height: 200px;
+    margin: 0 20px
+}
+
+.sinopse{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #35A7FF;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2069a0;
+    cursor: pointer;
+}

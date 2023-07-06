@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.footer{
+    background-color: #100E0E;
+    color: white;
+    border-top: #FFE74C solid 5px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > p {
+    align-content: left;
+}
+
+.icones{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    gap: 25px;
+}
+
+.icone{
+    color: #35A7FF;
+    scale: 1.3;
+}
+
+.icone:hover{
+    color: #1f6296;
+    opacity: 80%;
+    cursor: pointer;
+    align-items: right;
+}

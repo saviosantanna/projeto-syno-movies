@@ -1,0 +1,33 @@
+.inputs{
+    margin-left: 100px;
+}
+
+.caixaTexto{
+    width: 350px;
+    height: 25px;
+    margin: 10px 0;
+    border: solid #FFE74C 2px;
+    padding: 5px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    left: 365px;
+    background-color: #6BF178;
+    font-weight: bolder;
+    border: #2b5f30 solid 1px;
+}
+
+button:hover{
+    background-color: #44974c;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #2b5f30;
+    cursor: pointer;
+    border: #44974c solid 1px
+}

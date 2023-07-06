@@ -1,0 +1,23 @@
+
+.itemMenu{
+    color: white;
+    text-decoration: none;
+}
+
+
+.itemMenu:hover{
+    text-decoration: underline;
+    color: #6BF178;
+    cursor: pointer;
+}
+
+.linkAtivo{
+    color: #3b8042;
+    font-weight: bolder;
+}
+
+.linkAtivo:hover{
+    color: #3b8042;
+    font-weight: bolder;
+    text-decoration: none;
+}

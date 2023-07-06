@@ -1,0 +1,13 @@
+.home{
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.texto{
+    font-size: 20px;
+    margin: 25px 0px;
+    font-weight: 200;
+}

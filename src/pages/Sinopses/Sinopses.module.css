@@ -1,0 +1,37 @@
+.sinopses{
+    text-align: justify;
+    width: 100vw;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.texto{
+    font-size: 20px;
+    margin: 25px 0px;
+    font-weight: 200;
+}
+
+.teste{
+    color: red;
+}
+
+.filme{
+    display: flex;
+    padding: 30px 0;
+    margin: 20px 0;
+    border-top: #6BF178 solid 3px;
+}
+
+img{
+    box-shadow: none;
+    border: none;
+    height: 250px;
+    margin: 0 20px
+}
+
+.sinopse{
+    font-size: 18px;
+    margin: 10px 0;
+}
